@@ -1,0 +1,67 @@
+:root{
+    --c1olor:azure;
+}
+.logo_f {
+    font-weight: 1000;
+    font-size: 2rem;
+}
+
+#F {
+    color: var(--c2olor);
+}
+
+h1{
+    font-size: 65px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    border: solid black 1px;
+}
+label{
+    margin-bottom: 5px;
+}
+button{
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+    margin: 10px auto;
+    background-color: var(--c1olor);
+}
+img{
+    width: 450px;
+    height: 370px;
+}
+b{
+    font-size: large;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 70px auto;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px 3px black;
+    overflow: hidden;
+}
+
+.login{
+    padding: 60px 60px;
+}
+
+.intro{
+    padding: 60px 60px;
+    background-color: var(--c1olor);
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
