@@ -30,6 +30,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/home/*" element={<Home />} />
+        <Route path="*" element={<div className="center"> <h1>PAGE NOT FOUND ! </h1> </div>} />
       </Routes>
     </BrowserRouter>
 >>>>>>> eaa2b64551d22eaaaddc5a209d2ab02d2cf4e2ea
